@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F0F700C2A2E2177008F4963 /* JQImageEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F700B2A2E2177008F4963 /* JQImageEditVC.m */; };
-		4F0F700F2A2E2199008F4963 /* JQResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F700E2A2E2199008F4963 /* JQResizeView.m */; };
-		4F0F70122A2E21A6008F4963 /* JQCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F70112A2E21A6008F4963 /* JQCropView.m */; };
-		4F0F70152A2E21BC008F4963 /* JQCropRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F70142A2E21BC008F4963 /* JQCropRectView.m */; };
 		4F2372B22A21B70000C15751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2372B12A21B70000C15751 /* AppDelegate.m */; };
 		4F2372B52A21B70000C15751 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2372B42A21B70000C15751 /* SceneDelegate.m */; };
 		4F2372B82A21B70000C15751 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2372B72A21B70000C15751 /* ViewController.m */; };
@@ -21,6 +17,10 @@
 		4F2372CD2A21B70100C15751 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2372CC2A21B70100C15751 /* demoTests.m */; };
 		4F2372D72A21B70100C15751 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2372D62A21B70100C15751 /* demoUITests.m */; };
 		4F2372D92A21B70100C15751 /* demoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2372D82A21B70100C15751 /* demoUITestsLaunchTests.m */; };
+		4F9CF5462AA5CE1100D65C5D /* JQImageEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CF5412AA5CE1100D65C5D /* JQImageEditVC.m */; };
+		4F9CF5472AA5CE1100D65C5D /* JQResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CF5422AA5CE1100D65C5D /* JQResizeView.m */; };
+		4F9CF5482AA5CE1100D65C5D /* JQCropRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CF5432AA5CE1100D65C5D /* JQCropRectView.m */; };
+		4F9CF5492AA5CE1100D65C5D /* JQCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CF5442AA5CE1100D65C5D /* JQCropView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F0F700A2A2E2177008F4963 /* JQImageEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQImageEditVC.h; sourceTree = "<group>"; };
-		4F0F700B2A2E2177008F4963 /* JQImageEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQImageEditVC.m; sourceTree = "<group>"; };
-		4F0F700D2A2E2199008F4963 /* JQResizeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQResizeView.h; sourceTree = "<group>"; };
-		4F0F700E2A2E2199008F4963 /* JQResizeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQResizeView.m; sourceTree = "<group>"; };
-		4F0F70102A2E21A6008F4963 /* JQCropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQCropView.h; sourceTree = "<group>"; };
-		4F0F70112A2E21A6008F4963 /* JQCropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQCropView.m; sourceTree = "<group>"; };
-		4F0F70132A2E21BC008F4963 /* JQCropRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQCropRectView.h; sourceTree = "<group>"; };
-		4F0F70142A2E21BC008F4963 /* JQCropRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQCropRectView.m; sourceTree = "<group>"; };
 		4F2372AD2A21B70000C15751 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2372B02A21B70000C15751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F2372B12A21B70000C15751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +58,14 @@
 		4F2372D22A21B70100C15751 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2372D62A21B70100C15751 /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		4F2372D82A21B70100C15751 /* demoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4F9CF53E2AA5CE1100D65C5D /* JQResizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQResizeView.h; sourceTree = "<group>"; };
+		4F9CF53F2AA5CE1100D65C5D /* JQCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQCropView.h; sourceTree = "<group>"; };
+		4F9CF5402AA5CE1100D65C5D /* JQCropRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQCropRectView.h; sourceTree = "<group>"; };
+		4F9CF5412AA5CE1100D65C5D /* JQImageEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQImageEditVC.m; sourceTree = "<group>"; };
+		4F9CF5422AA5CE1100D65C5D /* JQResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQResizeView.m; sourceTree = "<group>"; };
+		4F9CF5432AA5CE1100D65C5D /* JQCropRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQCropRectView.m; sourceTree = "<group>"; };
+		4F9CF5442AA5CE1100D65C5D /* JQCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQCropView.m; sourceTree = "<group>"; };
+		4F9CF5452AA5CE1100D65C5D /* JQImageEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQImageEditVC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,32 +96,9 @@
 		4F0F70042A2E20D6008F4963 /* JQCropImage */ = {
 			isa = PBXGroup;
 			children = (
-				4F0F70062A2E2103008F4963 /* JQCrop */,
-				4F0F70052A2E20E5008F4963 /* JQSelectPhoto */,
+				4F9CF53D2AA5CE1100D65C5D /* Classes */,
 			);
 			path = JQCropImage;
-			sourceTree = "<group>";
-		};
-		4F0F70052A2E20E5008F4963 /* JQSelectPhoto */ = {
-			isa = PBXGroup;
-			children = (
-				4F0F700A2A2E2177008F4963 /* JQImageEditVC.h */,
-				4F0F700B2A2E2177008F4963 /* JQImageEditVC.m */,
-			);
-			path = JQSelectPhoto;
-			sourceTree = "<group>";
-		};
-		4F0F70062A2E2103008F4963 /* JQCrop */ = {
-			isa = PBXGroup;
-			children = (
-				4F0F700D2A2E2199008F4963 /* JQResizeView.h */,
-				4F0F700E2A2E2199008F4963 /* JQResizeView.m */,
-				4F0F70102A2E21A6008F4963 /* JQCropView.h */,
-				4F0F70112A2E21A6008F4963 /* JQCropView.m */,
-				4F0F70132A2E21BC008F4963 /* JQCropRectView.h */,
-				4F0F70142A2E21BC008F4963 /* JQCropRectView.m */,
-			);
-			path = JQCrop;
 			sourceTree = "<group>";
 		};
 		4F2372A42A21B70000C15751 = {
@@ -178,6 +155,22 @@
 				4F2372D82A21B70100C15751 /* demoUITestsLaunchTests.m */,
 			);
 			path = demoUITests;
+			sourceTree = "<group>";
+		};
+		4F9CF53D2AA5CE1100D65C5D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CF53E2AA5CE1100D65C5D /* JQResizeView.h */,
+				4F9CF53F2AA5CE1100D65C5D /* JQCropView.h */,
+				4F9CF5402AA5CE1100D65C5D /* JQCropRectView.h */,
+				4F9CF5412AA5CE1100D65C5D /* JQImageEditVC.m */,
+				4F9CF5422AA5CE1100D65C5D /* JQResizeView.m */,
+				4F9CF5432AA5CE1100D65C5D /* JQCropRectView.m */,
+				4F9CF5442AA5CE1100D65C5D /* JQCropView.m */,
+				4F9CF5452AA5CE1100D65C5D /* JQImageEditVC.h */,
+			);
+			name = Classes;
+			path = ../../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,13 +304,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2372B82A21B70000C15751 /* ViewController.m in Sources */,
+				4F9CF5492AA5CE1100D65C5D /* JQCropView.m in Sources */,
 				4F2372B22A21B70000C15751 /* AppDelegate.m in Sources */,
-				4F0F70122A2E21A6008F4963 /* JQCropView.m in Sources */,
+				4F9CF5482AA5CE1100D65C5D /* JQCropRectView.m in Sources */,
 				4F2372C32A21B70100C15751 /* main.m in Sources */,
-				4F0F70152A2E21BC008F4963 /* JQCropRectView.m in Sources */,
+				4F9CF5472AA5CE1100D65C5D /* JQResizeView.m in Sources */,
 				4F2372B52A21B70000C15751 /* SceneDelegate.m in Sources */,
-				4F0F700F2A2E2199008F4963 /* JQResizeView.m in Sources */,
-				4F0F700C2A2E2177008F4963 /* JQImageEditVC.m in Sources */,
+				4F9CF5462AA5CE1100D65C5D /* JQImageEditVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
