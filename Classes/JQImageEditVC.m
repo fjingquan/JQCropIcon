@@ -41,6 +41,10 @@
     
     // 编辑处 view
     self.cropView = [[JQCropView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    __weak typeof(self) weakSelf = self;
+    self.cropView.variedBlock = ^(BOOL varied) {
+        weakSelf.undoButton.enabled = varied;
+    };
     [self.view addSubview:self.cropView];
     
     self.cropView.image = self.image;
@@ -95,6 +99,7 @@
 
 - (void)onUndo {
     [self.cropView undoAction];
+    self.undoButton.enabled = NO;
 }
 
 #pragma mark - lazy
@@ -102,6 +107,7 @@
     if (!_backButton) {
         _backButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_backButton setTitle:@"Cancel" forState:UIControlStateNormal];
+        [_backButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [_backButton addTarget:self action:@selector(onBackAction) forControlEvents:UIControlEventTouchUpInside];
         _backButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeading;
     }
@@ -112,6 +118,7 @@
     if (!_doneButton) {
         _doneButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_doneButton setTitle:@"Done" forState:UIControlStateNormal];
+        [_doneButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [_doneButton addTarget:self action:@selector(onDoneAction) forControlEvents:UIControlEventTouchUpInside];
         _doneButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentTrailing;
     }
@@ -121,7 +128,10 @@
 - (UIButton *)undoButton {
     if (!_undoButton) {
         _undoButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _undoButton.enabled = NO;
         [_undoButton setTitle:@"Undo" forState:UIControlStateNormal];
+        [_undoButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [_undoButton setTitleColor:[[UIColor whiteColor] colorWithAlphaComponent:0.5] forState:UIControlStateDisabled];
         [_undoButton addTarget:self action:@selector(onUndo) forControlEvents:UIControlEventTouchUpInside];
     }
     return _undoButton;

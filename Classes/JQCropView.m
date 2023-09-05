@@ -467,6 +467,9 @@ JQCropRectViewDelegate
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     [self putOffOverlayView:1];
+        
+    BOOL originalShape = (scrollView.zoomScale == 1)&&(CGPointEqualToPoint(scrollView.contentOffset, self.scrollFinalOffset));
+    !self.variedBlock ?: self.variedBlock(!originalShape);
 }
 
 - (void)scrollViewWillBeginZooming:(UIScrollView *)scrollView withView:(UIView *)view {
@@ -475,6 +478,9 @@ JQCropRectViewDelegate
 
 - (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(CGFloat)scale {
     [self putOffOverlayView:1];
+    
+    BOOL originalShape = (scrollView.zoomScale == 1)&&(CGPointEqualToPoint(scrollView.contentOffset, self.scrollFinalOffset));
+    !self.variedBlock ?: self.variedBlock(!originalShape);
 }
 
 @end

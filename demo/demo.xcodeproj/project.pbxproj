@@ -160,14 +160,14 @@
 		4F9CF53D2AA5CE1100D65C5D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4F9CF53E2AA5CE1100D65C5D /* JQResizeView.h */,
 				4F9CF53F2AA5CE1100D65C5D /* JQCropView.h */,
-				4F9CF5402AA5CE1100D65C5D /* JQCropRectView.h */,
-				4F9CF5412AA5CE1100D65C5D /* JQImageEditVC.m */,
-				4F9CF5422AA5CE1100D65C5D /* JQResizeView.m */,
-				4F9CF5432AA5CE1100D65C5D /* JQCropRectView.m */,
 				4F9CF5442AA5CE1100D65C5D /* JQCropView.m */,
 				4F9CF5452AA5CE1100D65C5D /* JQImageEditVC.h */,
+				4F9CF5412AA5CE1100D65C5D /* JQImageEditVC.m */,
+				4F9CF53E2AA5CE1100D65C5D /* JQResizeView.h */,
+				4F9CF5422AA5CE1100D65C5D /* JQResizeView.m */,
+				4F9CF5402AA5CE1100D65C5D /* JQCropRectView.h */,
+				4F9CF5432AA5CE1100D65C5D /* JQCropRectView.m */,
 			);
 			name = Classes;
 			path = ../../../Classes;

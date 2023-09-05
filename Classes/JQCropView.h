@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat aspectRatio;
 @property (nonatomic, assign) CGRect cropRect;
 
+/// to send back if the image have varied
+@property (nonatomic, copy) void (^variedBlock)(BOOL varied);
+
 - (void)putOffOverlayView;
 - (void)undoAction;
 
