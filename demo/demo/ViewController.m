@@ -57,7 +57,6 @@
             [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
         #endif
     }];
-    
 }
 
 #pragma mark delegate
