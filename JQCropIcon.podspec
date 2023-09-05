@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/fjingquan/JQCropIcon.git", :commit => "3c51a548aa9ba5da4428099d80789f72a81a31e3" }
+  spec.source       = { :git => "https://github.com/fjingquan/JQCropIcon.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
