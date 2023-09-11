@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JQCropIcon"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Crop user's avatar like WeChat"
 
   # This description is used to generate tags and improve search results.
