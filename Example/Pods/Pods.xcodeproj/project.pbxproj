@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36E37C2EB8B82B1117325530C5373E24 /* Pods-JQCropIcon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18E1ABD628853BED4D8043D98CE2A1 /* Pods-JQCropIcon_Example-dummy.m */; };
+		4500A4826ACDAE577D9E0453E8B18F42 /* Pods-JQCropIcon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 341A8BD887DE9217C4CBF4B43AB0B405 /* Pods-JQCropIcon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E3DF04AE6604FA48E48F1F387FD49B /* Pods-JQCropIcon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7670776548D325711E0AAF18D05143 /* Pods-JQCropIcon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70F80636E6025FE3FCBCA991FDF56924 /* JQCropIcon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C7F18F3E73CC4CAB977E6373A679D8 /* JQCropIcon-dummy.m */; };
+		76EF3877D4C4C5E960B2E8B2A498D971 /* JQImageEditVC.h in Headers */ = {isa = PBXBuildFile; fileRef = A31FE883C014637CF2EC90C0606873E8 /* JQImageEditVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5935078643A706C4F13C6E68D2F30E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		96B2910BFA1DA94965B04F999D803852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A52FDCDEC3D1252AB0E8EFAF5042647D /* JQCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73C8BB1DD39E55984E9F832A781E684 /* JQCropView.m */; };
+		AA6ACE62928D3E478F42B54D5352394F /* JQImageEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C052208644A77945C8EB85321275268C /* JQImageEditVC.m */; };
+		AC68047DBE390715326CD72739C58D83 /* JQResizeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 888D8A357F3E2D03261465DD19FD528A /* JQResizeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0AB9F1282A1AD23ED0F6138175E994C /* JQResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 247AF4F375C5B940C81CAA4A6D650002 /* JQResizeView.m */; };
+		BE8A78327DF4F96EC46A5E203CEE959B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0D31BE288493B9F0C99D6B3B7887FCB /* JQCropIcon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59094D02E6B2CE39DFA12E4F7BFF6A91 /* JQCropIcon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C77140A65271AC6B92780552B5A25A1F /* JQCropRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A57A577621968B40E263F7657E65E /* JQCropRectView.m */; };
+		CA0AA610436A192DDA834642D4D8E406 /* JQCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = F449186555638DBEACE0E4A1076B7988 /* JQCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74F78CEFB06CCCB19A615511DA8C771 /* Pods-JQCropIcon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F1A685B3710F9122948E1A75DB659A /* Pods-JQCropIcon_Tests-dummy.m */; };
+		F5CBF66F3B37EB524AE5BD6CCF2DE8A4 /* JQCropRectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEA848AB077DE295D1F90AEC0F4A927 /* JQCropRectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		320E4492F2AE2A4397F316ACB94FC20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 988DB6CBED96519A20A9CFB860A90D3D;
+			remoteInfo = JQCropIcon;
+		};
+		CEADBF51508395E867638C72237D0E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F6532F2E1222B52F15AE2AA3232D1A;
+			remoteInfo = "Pods-JQCropIcon_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C78956FAB296BCFC8C89A587021F27E /* JQCropIcon */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JQCropIcon; path = JQCropIcon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C7F18F3E73CC4CAB977E6373A679D8 /* JQCropIcon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JQCropIcon-dummy.m"; sourceTree = "<group>"; };
+		247AF4F375C5B940C81CAA4A6D650002 /* JQResizeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQResizeView.m; path = JQCropIcon/Classes/JQResizeView.m; sourceTree = "<group>"; };
+		2DEA848AB077DE295D1F90AEC0F4A927 /* JQCropRectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQCropRectView.h; path = JQCropIcon/Classes/JQCropRectView.h; sourceTree = "<group>"; };
+		341A8BD887DE9217C4CBF4B43AB0B405 /* Pods-JQCropIcon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JQCropIcon_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3AF9617651AAE6499C0AC113D98B8C10 /* Pods-JQCropIcon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JQCropIcon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40F1A685B3710F9122948E1A75DB659A /* Pods-JQCropIcon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JQCropIcon_Tests-dummy.m"; sourceTree = "<group>"; };
+		450B6F79D065F4027CD69268426E7039 /* Pods-JQCropIcon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQCropIcon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		455F2E7A5D2502892DA6CA73065ED0D2 /* Pods-JQCropIcon_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JQCropIcon_Example"; path = Pods_JQCropIcon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A18E1ABD628853BED4D8043D98CE2A1 /* Pods-JQCropIcon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JQCropIcon_Example-dummy.m"; sourceTree = "<group>"; };
+		52B9C3EDEB43BBA8C70CBEE14528F0F2 /* Pods-JQCropIcon_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JQCropIcon_Tests"; path = Pods_JQCropIcon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B38658744935674011BAE538FDF016 /* Pods-JQCropIcon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQCropIcon_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5812FC79AA384A7EF9FB69363A3361B7 /* Pods-JQCropIcon_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQCropIcon_Example-Info.plist"; sourceTree = "<group>"; };
+		59094D02E6B2CE39DFA12E4F7BFF6A91 /* JQCropIcon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQCropIcon-umbrella.h"; sourceTree = "<group>"; };
+		5D41E89750773B93BECDE533601E524A /* JQCropIcon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JQCropIcon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		604DF86AB610CD765ED720E6D2B1F0A3 /* JQCropIcon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQCropIcon.release.xcconfig; sourceTree = "<group>"; };
+		6204525E8AFBB19F3A4C91122FE0AB83 /* Pods-JQCropIcon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQCropIcon_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		668873BDAC6B6871F8C917F22C65A1C2 /* Pods-JQCropIcon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JQCropIcon_Example-frameworks.sh"; sourceTree = "<group>"; };
+		668F7A0361E98FEE6BEF177838EE5FCC /* JQCropIcon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQCropIcon-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76143CC3BE82BEA76C93D03E659BE497 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		78665340D1666FCA5C1B22F8CFE689BC /* JQCropIcon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JQCropIcon.modulemap; sourceTree = "<group>"; };
+		7A98BDEFF6261605321261355EF34EAF /* Pods-JQCropIcon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQCropIcon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AD5EA08EC4717C4E4C70C7618714700 /* Pods-JQCropIcon_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQCropIcon_Tests-Info.plist"; sourceTree = "<group>"; };
+		7B3A57A577621968B40E263F7657E65E /* JQCropRectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQCropRectView.m; path = JQCropIcon/Classes/JQCropRectView.m; sourceTree = "<group>"; };
+		8713EC0E5552F53F9CE9DA8B30B3C85A /* Pods-JQCropIcon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQCropIcon_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		888D8A357F3E2D03261465DD19FD528A /* JQResizeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQResizeView.h; path = JQCropIcon/Classes/JQResizeView.h; sourceTree = "<group>"; };
+		8C7670776548D325711E0AAF18D05143 /* Pods-JQCropIcon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JQCropIcon_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31FE883C014637CF2EC90C0606873E8 /* JQImageEditVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQImageEditVC.h; path = JQCropIcon/Classes/JQImageEditVC.h; sourceTree = "<group>"; };
+		A7B783F67BEEA0577F623FAECFC3B759 /* Pods-JQCropIcon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JQCropIcon_Example.modulemap"; sourceTree = "<group>"; };
+		AE45E801EBF0E1931EC8598E225F6A5E /* JQCropIcon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQCropIcon.debug.xcconfig; sourceTree = "<group>"; };
+		B376670436581B8E052B0EC9D0EDE1B7 /* Pods-JQCropIcon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JQCropIcon_Tests.modulemap"; sourceTree = "<group>"; };
+		C052208644A77945C8EB85321275268C /* JQImageEditVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQImageEditVC.m; path = JQCropIcon/Classes/JQImageEditVC.m; sourceTree = "<group>"; };
+		C3A5893CDCB1F5669F99D80694676EF3 /* Pods-JQCropIcon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQCropIcon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2CB86B0FC686B7AA5CE0DAFB1C0E8E8 /* JQCropIcon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JQCropIcon-Info.plist"; sourceTree = "<group>"; };
+		D73C8BB1DD39E55984E9F832A781E684 /* JQCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQCropView.m; path = JQCropIcon/Classes/JQCropView.m; sourceTree = "<group>"; };
+		D8760493DDE56C7E781168497FD882E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DA0A64D23D7666C6CBFF2B8D2E3B090E /* Pods-JQCropIcon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JQCropIcon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F449186555638DBEACE0E4A1076B7988 /* JQCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQCropView.h; path = JQCropIcon/Classes/JQCropView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC18E653BBE2FE9A3EDC67A00E63F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5935078643A706C4F13C6E68D2F30E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16C91BE95A7D8ACCBDBD61B01D6FC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B2910BFA1DA94965B04F999D803852 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E644BA3BABD3A0693393658086F34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8A78327DF4F96EC46A5E203CEE959B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F891CB3C332536FFEF01FB3DF50066 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8577833CD04167435798279D61179EDD /* Pods-JQCropIcon_Example */,
+				DB8BD7D7B203D7C8058FF6262050887C /* Pods-JQCropIcon_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		697240900191FC568399F3252495D0BC /* JQCropIcon */ = {
+			isa = PBXGroup;
+			children = (
+				2DEA848AB077DE295D1F90AEC0F4A927 /* JQCropRectView.h */,
+				7B3A57A577621968B40E263F7657E65E /* JQCropRectView.m */,
+				F449186555638DBEACE0E4A1076B7988 /* JQCropView.h */,
+				D73C8BB1DD39E55984E9F832A781E684 /* JQCropView.m */,
+				A31FE883C014637CF2EC90C0606873E8 /* JQImageEditVC.h */,
+				C052208644A77945C8EB85321275268C /* JQImageEditVC.m */,
+				888D8A357F3E2D03261465DD19FD528A /* JQResizeView.h */,
+				247AF4F375C5B940C81CAA4A6D650002 /* JQResizeView.m */,
+				925EC476E199238597B36A2BD17E7149 /* Pod */,
+				C7EFAA1751C7A09FD36B0AC9B9124E1C /* Support Files */,
+			);
+			name = JQCropIcon;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8577833CD04167435798279D61179EDD /* Pods-JQCropIcon_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A7B783F67BEEA0577F623FAECFC3B759 /* Pods-JQCropIcon_Example.modulemap */,
+				3AF9617651AAE6499C0AC113D98B8C10 /* Pods-JQCropIcon_Example-acknowledgements.markdown */,
+				7A98BDEFF6261605321261355EF34EAF /* Pods-JQCropIcon_Example-acknowledgements.plist */,
+				4A18E1ABD628853BED4D8043D98CE2A1 /* Pods-JQCropIcon_Example-dummy.m */,
+				668873BDAC6B6871F8C917F22C65A1C2 /* Pods-JQCropIcon_Example-frameworks.sh */,
+				5812FC79AA384A7EF9FB69363A3361B7 /* Pods-JQCropIcon_Example-Info.plist */,
+				8C7670776548D325711E0AAF18D05143 /* Pods-JQCropIcon_Example-umbrella.h */,
+				8713EC0E5552F53F9CE9DA8B30B3C85A /* Pods-JQCropIcon_Example.debug.xcconfig */,
+				55B38658744935674011BAE538FDF016 /* Pods-JQCropIcon_Example.release.xcconfig */,
+			);
+			name = "Pods-JQCropIcon_Example";
+			path = "Target Support Files/Pods-JQCropIcon_Example";
+			sourceTree = "<group>";
+		};
+		925EC476E199238597B36A2BD17E7149 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5D41E89750773B93BECDE533601E524A /* JQCropIcon.podspec */,
+				D8760493DDE56C7E781168497FD882E1 /* LICENSE */,
+				76143CC3BE82BEA76C93D03E659BE497 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A3B1EE995DBC8EAB0C157F07581ACAF2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				697240900191FC568399F3252495D0BC /* JQCropIcon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C7EFAA1751C7A09FD36B0AC9B9124E1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78665340D1666FCA5C1B22F8CFE689BC /* JQCropIcon.modulemap */,
+				23C7F18F3E73CC4CAB977E6373A679D8 /* JQCropIcon-dummy.m */,
+				D2CB86B0FC686B7AA5CE0DAFB1C0E8E8 /* JQCropIcon-Info.plist */,
+				668F7A0361E98FEE6BEF177838EE5FCC /* JQCropIcon-prefix.pch */,
+				59094D02E6B2CE39DFA12E4F7BFF6A91 /* JQCropIcon-umbrella.h */,
+				AE45E801EBF0E1931EC8598E225F6A5E /* JQCropIcon.debug.xcconfig */,
+				604DF86AB610CD765ED720E6D2B1F0A3 /* JQCropIcon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JQCropIcon";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A3B1EE995DBC8EAB0C157F07581ACAF2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E16566FF33B7C32CC30F05BDB56D7978 /* Products */,
+				07F891CB3C332536FFEF01FB3DF50066 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8BD7D7B203D7C8058FF6262050887C /* Pods-JQCropIcon_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B376670436581B8E052B0EC9D0EDE1B7 /* Pods-JQCropIcon_Tests.modulemap */,
+				DA0A64D23D7666C6CBFF2B8D2E3B090E /* Pods-JQCropIcon_Tests-acknowledgements.markdown */,
+				C3A5893CDCB1F5669F99D80694676EF3 /* Pods-JQCropIcon_Tests-acknowledgements.plist */,
+				40F1A685B3710F9122948E1A75DB659A /* Pods-JQCropIcon_Tests-dummy.m */,
+				7AD5EA08EC4717C4E4C70C7618714700 /* Pods-JQCropIcon_Tests-Info.plist */,
+				341A8BD887DE9217C4CBF4B43AB0B405 /* Pods-JQCropIcon_Tests-umbrella.h */,
+				450B6F79D065F4027CD69268426E7039 /* Pods-JQCropIcon_Tests.debug.xcconfig */,
+				6204525E8AFBB19F3A4C91122FE0AB83 /* Pods-JQCropIcon_Tests.release.xcconfig */,
+			);
+			name = "Pods-JQCropIcon_Tests";
+			path = "Target Support Files/Pods-JQCropIcon_Tests";
+			sourceTree = "<group>";
+		};
+		E16566FF33B7C32CC30F05BDB56D7978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C78956FAB296BCFC8C89A587021F27E /* JQCropIcon */,
+				455F2E7A5D2502892DA6CA73065ED0D2 /* Pods-JQCropIcon_Example */,
+				52B9C3EDEB43BBA8C70CBEE14528F0F2 /* Pods-JQCropIcon_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5FEC6BFA26ECA3196BC7DF0C85D2B734 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D31BE288493B9F0C99D6B3B7887FCB /* JQCropIcon-umbrella.h in Headers */,
+				F5CBF66F3B37EB524AE5BD6CCF2DE8A4 /* JQCropRectView.h in Headers */,
+				CA0AA610436A192DDA834642D4D8E406 /* JQCropView.h in Headers */,
+				76EF3877D4C4C5E960B2E8B2A498D971 /* JQImageEditVC.h in Headers */,
+				AC68047DBE390715326CD72739C58D83 /* JQResizeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B542283F4D8E453830E2728E22EA2F6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E3DF04AE6604FA48E48F1F387FD49B /* Pods-JQCropIcon_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F512535C89EC99FBAB0D3249C70110BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4500A4826ACDAE577D9E0453E8B18F42 /* Pods-JQCropIcon_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		006D3E7BCAE43A52713445CC2A346ABE /* Pods-JQCropIcon_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09D5A648CDA15EB5798D1521A194392 /* Build configuration list for PBXNativeTarget "Pods-JQCropIcon_Tests" */;
+			buildPhases = (
+				F512535C89EC99FBAB0D3249C70110BD /* Headers */,
+				7B99AB44779A636404A52328E3BEEADA /* Sources */,
+				A16C91BE95A7D8ACCBDBD61B01D6FC4E /* Frameworks */,
+				1C787AEAA9603DBEFCE554A3B4B151B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F56ED17F7F9E07A0BED3AE692629744 /* PBXTargetDependency */,
+			);
+			name = "Pods-JQCropIcon_Tests";
+			productName = Pods_JQCropIcon_Tests;
+			productReference = 52B9C3EDEB43BBA8C70CBEE14528F0F2 /* Pods-JQCropIcon_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		988DB6CBED96519A20A9CFB860A90D3D /* JQCropIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6160DE77BBBFCD7CA7E5ABB0FAAD2A /* Build configuration list for PBXNativeTarget "JQCropIcon" */;
+			buildPhases = (
+				5FEC6BFA26ECA3196BC7DF0C85D2B734 /* Headers */,
+				6ED097C900DE881BB4265092F37BA004 /* Sources */,
+				4AC18E653BBE2FE9A3EDC67A00E63F39 /* Frameworks */,
+				4D20AE7C3AC331E363A40FDBA34FBA1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQCropIcon;
+			productName = JQCropIcon;
+			productReference = 1C78956FAB296BCFC8C89A587021F27E /* JQCropIcon */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8F6532F2E1222B52F15AE2AA3232D1A /* Pods-JQCropIcon_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4C5A25297183A794AC6D4A73E6706D /* Build configuration list for PBXNativeTarget "Pods-JQCropIcon_Example" */;
+			buildPhases = (
+				B542283F4D8E453830E2728E22EA2F6A /* Headers */,
+				849070A6959F15DD8461D38A8D11C2DC /* Sources */,
+				A4E644BA3BABD3A0693393658086F34A /* Frameworks */,
+				24BDA52537929DBC1D4F0A6216C720C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78E8509E97954FD5F45721192D68B18 /* PBXTargetDependency */,
+			);
+			name = "Pods-JQCropIcon_Example";
+			productName = Pods_JQCropIcon_Example;
+			productReference = 455F2E7A5D2502892DA6CA73065ED0D2 /* Pods-JQCropIcon_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E16566FF33B7C32CC30F05BDB56D7978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				988DB6CBED96519A20A9CFB860A90D3D /* JQCropIcon */,
+				D8F6532F2E1222B52F15AE2AA3232D1A /* Pods-JQCropIcon_Example */,
+				006D3E7BCAE43A52713445CC2A346ABE /* Pods-JQCropIcon_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C787AEAA9603DBEFCE554A3B4B151B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BDA52537929DBC1D4F0A6216C720C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D20AE7C3AC331E363A40FDBA34FBA1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ED097C900DE881BB4265092F37BA004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F80636E6025FE3FCBCA991FDF56924 /* JQCropIcon-dummy.m in Sources */,
+				C77140A65271AC6B92780552B5A25A1F /* JQCropRectView.m in Sources */,
+				A52FDCDEC3D1252AB0E8EFAF5042647D /* JQCropView.m in Sources */,
+				AA6ACE62928D3E478F42B54D5352394F /* JQImageEditVC.m in Sources */,
+				B0AB9F1282A1AD23ED0F6138175E994C /* JQResizeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B99AB44779A636404A52328E3BEEADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74F78CEFB06CCCB19A615511DA8C771 /* Pods-JQCropIcon_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849070A6959F15DD8461D38A8D11C2DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E37C2EB8B82B1117325530C5373E24 /* Pods-JQCropIcon_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F56ED17F7F9E07A0BED3AE692629744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JQCropIcon_Example";
+			target = D8F6532F2E1222B52F15AE2AA3232D1A /* Pods-JQCropIcon_Example */;
+			targetProxy = CEADBF51508395E867638C72237D0E66 /* PBXContainerItemProxy */;
+		};
+		E78E8509E97954FD5F45721192D68B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JQCropIcon;
+			target = 988DB6CBED96519A20A9CFB860A90D3D /* JQCropIcon */;
+			targetProxy = 320E4492F2AE2A4397F316ACB94FC20C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C5E4941B868F5BC89C2B490A27D3B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE45E801EBF0E1931EC8598E225F6A5E /* JQCropIcon.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JQCropIcon/JQCropIcon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JQCropIcon/JQCropIcon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JQCropIcon/JQCropIcon.modulemap";
+				PRODUCT_MODULE_NAME = JQCropIcon;
+				PRODUCT_NAME = JQCropIcon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7521BCAF931AA029D794829788789594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B38658744935674011BAE538FDF016 /* Pods-JQCropIcon_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JQCropIcon_Example/Pods-JQCropIcon_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JQCropIcon_Example/Pods-JQCropIcon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		823882A40D4C1725A887CC670466013A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450B6F79D065F4027CD69268426E7039 /* Pods-JQCropIcon_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JQCropIcon_Tests/Pods-JQCropIcon_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JQCropIcon_Tests/Pods-JQCropIcon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85AD862D4AA28E2CD5D4D727D19656BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6204525E8AFBB19F3A4C91122FE0AB83 /* Pods-JQCropIcon_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JQCropIcon_Tests/Pods-JQCropIcon_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JQCropIcon_Tests/Pods-JQCropIcon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8701B88DB4CC9B59C3256F37589F200D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604DF86AB610CD765ED720E6D2B1F0A3 /* JQCropIcon.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JQCropIcon/JQCropIcon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JQCropIcon/JQCropIcon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JQCropIcon/JQCropIcon.modulemap";
+				PRODUCT_MODULE_NAME = JQCropIcon;
+				PRODUCT_NAME = JQCropIcon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F7BAE7CB9BE8E004222BE98F930941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8713EC0E5552F53F9CE9DA8B30B3C85A /* Pods-JQCropIcon_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JQCropIcon_Example/Pods-JQCropIcon_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JQCropIcon_Example/Pods-JQCropIcon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4C5A25297183A794AC6D4A73E6706D /* Build configuration list for PBXNativeTarget "Pods-JQCropIcon_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F7BAE7CB9BE8E004222BE98F930941 /* Debug */,
+				7521BCAF931AA029D794829788789594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6160DE77BBBFCD7CA7E5ABB0FAAD2A /* Build configuration list for PBXNativeTarget "JQCropIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5E4941B868F5BC89C2B490A27D3B54 /* Debug */,
+				8701B88DB4CC9B59C3256F37589F200D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09D5A648CDA15EB5798D1521A194392 /* Build configuration list for PBXNativeTarget "Pods-JQCropIcon_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823882A40D4C1725A887CC670466013A /* Debug */,
+				85AD862D4AA28E2CD5D4D727D19656BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

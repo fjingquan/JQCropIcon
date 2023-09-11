@@ -1,0 +1,16 @@
+PODS:
+  - JQCropIcon (0.0.1)
+
+DEPENDENCIES:
+  - JQCropIcon (from `../`)
+
+EXTERNAL SOURCES:
+  JQCropIcon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JQCropIcon: 9a4b79fee08e362f7af05d28b6ef14cb2edab1dd
+
+PODFILE CHECKSUM: 76a8fc46f55e0af615a9097dfe05498906ff28eb
+
+COCOAPODS: 1.11.2

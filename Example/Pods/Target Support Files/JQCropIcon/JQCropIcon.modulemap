@@ -1,0 +1,6 @@
+framework module JQCropIcon {
+  umbrella header "JQCropIcon-umbrella.h"
+
+  export *
+  module * { export * }
+}
